@@ -1,0 +1,7 @@
+DB_SERVER = 'localhost'
+DB_USER = 'dbuser'
+DB_PASSWORD = 'dbpassword'
+DB_NAME = 'dbname'
+DB_DATES_TABLE = 'Dates'
+DB_ZONES_TABLE = 'Zones'
+DB_DOMAINS_TABLE = 'Domains'

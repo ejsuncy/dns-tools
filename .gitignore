@@ -1,0 +1,3 @@
+*.pyc
+zonefile_parse
+zonefile_parse.o
