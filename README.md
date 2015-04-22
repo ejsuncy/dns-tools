@@ -56,7 +56,7 @@ Begin by generating an index file for the `autoparse.sh` script to use:
 python Date_Indexer.py --help
 python Date_Indexer.py -v -d /path/to/dns-registration
 ```
-And start the `autoparse.sh` script:
+And start the `autoparse.sh` script, piping `stdout` and `stderr` to a file for status updates:
 ```
 ./autoparse.sh &> dns-results.txt
 ```
@@ -88,3 +88,5 @@ Here are some example graphs generated:
 ![.NET Domains Added/Removed](https://github.com/ejsuncy/dns-tools/blob/master/NET_bar_graph.png)
 ![.NET Domains Net Gain](https://github.com/ejsuncy/dns-tools/blob/master/NET_net_gain.png)
 ![.NET Domains Quantity](https://github.com/ejsuncy/dns-tools/blob/master/NET_quantity.png)
+
+Note that large gaps surrounded by tall spikes in the graphs are due to missing data. If you have no missing data, it might be useful to edit the `dns-study.py` plotting functions to use linear y-axis scales instead of logarithmic scales.
