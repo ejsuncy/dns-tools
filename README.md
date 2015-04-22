@@ -1,7 +1,7 @@
 #dns-tools
 Tools for studying DNS Registrations; used and developed at the BYU Internet Research Lab.
 
-For more information, visit the [BYU Internet Research Lab homepage](http://www.fht.byu.edu/)
+For more information, visit the [BYU Internet Research Lab homepage](http://www.fht.byu.edu/).
 
 ---
 ##Parsing
