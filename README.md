@@ -71,7 +71,7 @@ Run the study to generate graphs for
 * Net gain of domains over time
 * Quantity of Domains over time
 
-The study can be run with the following:
+The study, which will take some time, can be run with the following:
 ```
 source ~/.virtualenvs/dns-study/bin/activate
 python dns-study.py
@@ -80,11 +80,11 @@ python dns-study.py
 Here are some example graphs generated:
 
 ###.COM
-![.COM Domains Added/Removed]()
-![.COM Domains Net Gain]()
-![.COM Domains Quantity]()
+![.COM Domains Added/Removed](https://github.com/ejsuncy/dns-tools/blob/master/COM_bar_graph.png)
+![.COM Domains Net Gain](https://github.com/ejsuncy/dns-tools/blob/master/COM_net_gain.png)
+![.COM Domains Quantity](https://github.com/ejsuncy/dns-tools/blob/master/COM_quantity.png)
 
 ###.NET
-![.NET Domains Added/Removed]()
-![.NET Domains Net Gain]()
-![.NET Domains Quantity]()
+![.NET Domains Added/Removed](https://github.com/ejsuncy/dns-tools/blob/master/NET_bar_graph.png)
+![.NET Domains Net Gain](https://github.com/ejsuncy/dns-tools/blob/master/NET_net_gain.png)
+![.NET Domains Quantity](https://github.com/ejsuncy/dns-tools/blob/master/NET_quantity.png)
